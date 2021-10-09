@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    width: 100%;
+}
+
+section .container{
+    width: 100%;
+    display: flex;
+}
+
+section .container:nth-child(1) .col:nth-child(1){
+    width: 33.33%;
+    height: 40vh;
+    background-color: blue;
+}
+
+section .container:nth-child(1) .col:nth-child(2){
+    width: 66.66%;
+    height: 40vh;
+    background-color: cyan;
+}
+
+section .container:nth-child(2){
+    flex-direction: column;
+}
+
+section .container:nth-child(2) .row:nth-child(1){
+    display: flex;
+}
+
+section .container:nth-child(2) .row:nth-child(1) .col{
+    width: 33.33%;
+    height: 30vh;
+}
+
+section .container:nth-child(2) .row:nth-child(1) .col:nth-child(1){
+    background-color: blueviolet;
+}
+
+section .container:nth-child(2) .row:nth-child(1) .col:nth-child(2){
+    background-color:brown;
+}
+
+section .container:nth-child(2) .row:nth-child(1) .col:nth-child(3){
+    background-color: darkgray;
+}
+
+section .container:nth-child(2) .row:nth-child(2){
+    display: flex;
+}
+
+section .container:nth-child(2) .row:nth-child(2) .col{
+    width: 50%;
+    height: 30vh;
+}
+
+section .container:nth-child(2) .row:nth-child(2) .col:nth-child(1){
+    background-color: burlywood;
+}
+section .container:nth-child(2) .row:nth-child(2) .col:nth-child(2){
+    background-color:chocolate;
+}

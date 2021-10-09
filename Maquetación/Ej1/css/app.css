@@ -1,0 +1,22 @@
+main{
+    display: flex;
+}
+.cuadro1{
+    width: 400px;
+    height: 400px;
+    background-color:rosybrown;
+}
+
+#cuadro2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(242, 239, 245);
+}
+
+/*.cuadro1{
+    background-color:pink;
+}*/
+
+main #cuadro2{
+    background-color: rgb(6, 58, 59);
+}
